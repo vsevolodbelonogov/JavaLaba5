@@ -72,7 +72,7 @@ void setNumerator(int numerator);
 void setDenominator(int denominator).
 ```
 ## Блок 2 — Кот и количество мяуканий (Cat)
-```java
+
 Задача: подсчёт количества мяуканий кота через интерфейс Meowable.
 
 Пример работы:
@@ -84,7 +84,7 @@ void setDenominator(int denominator).
 
 
 Описание реализации:
-
+```java
 Класс Cat:
 
 Поля: String name, int meowCount;
@@ -116,7 +116,7 @@ void meow().
 
 
 Описание реализации:
-
+```java
 Класс CollectionUtils:
 
 Метод static <T> List<T> removeConsecutiveDuplicates(List<T> list):
@@ -126,7 +126,7 @@ void meow().
 Убирает подряд идущие одинаковые элементы;
 
 Возвращает новый список.
-
+```
 ## Блок 4 — Сметана (SourCreamMonitor)
 
 Задача: определить количество магазинов с минимальной ценой для каждого вида сметаны.
@@ -138,7 +138,7 @@ void meow().
 
 
 Описание реализации:
-
+```java
 Класс SourCreamMonitor:
 
 Метод Map<Integer, Integer> analyzeFile(File file):
@@ -150,7 +150,7 @@ void meow().
 Считает, сколько магазинов продают сметану по минимальной цене;
 
 Возвращает Map<Integer, Integer>.
-
+```
 ## Блок 5 — Текст (DigitFinder)
 
 Задача: найти все цифры, встречающиеся в текстовом файле.
@@ -162,7 +162,7 @@ void meow().
 
 
 Описание реализации:
-
+```java
 Класс DigitFinder:
 
 Метод Set<Integer> findDigits(File file):
@@ -172,7 +172,7 @@ void meow().
 Проверяет каждый символ, является ли он цифрой;
 
 Добавляет уникальные цифры в Set<Integer>;
-
+```
 ## Блок 6 — Очередь (QueueUtils)
 
 Задача: проверить наличие одинаковых подряд элементов по кругу.
@@ -187,7 +187,7 @@ void meow().
 
 
 Описание реализации:
-
+```java
 Класс QueueUtils:
 
 Метод static <T> boolean hasCircularEqualNeighbor(List<T> queue):
@@ -197,7 +197,7 @@ void meow().
 Считается, что первый элемент соседствует с последним (круговая проверка);
 
 Возвращает true или false.
-
+```
 ## Блок 7.1 — Геометрия (Polyline)
 
 Задача: построить ломаную линию из введённых точек.
@@ -210,7 +210,7 @@ void meow().
 
 
 Описание реализации:
-
+```java
 Класс Point:
 
 Поля: double x, y;
@@ -230,7 +230,7 @@ void meow().
 Метод fromPoints(List<Point> points) — создаёт ломаную из точек;
 
 Метод toString() — "Линия [Т1, Т2, ..., TN]".
-
+```
 ## Блок 7.2 — Люди (PeopleGrouper)
 
 Задача: группировка людей по номеру из текстового файла.
@@ -242,7 +242,7 @@ void meow().
 
 
 Описание реализации:
-
+```java
 Класс PeopleGrouper:
 
 Метод Map<Integer, List<String>> groupPeopleByNumber(File file):
@@ -254,7 +254,7 @@ void meow().
 Приводит имена к формату: первая буква заглавная, остальные — строчные;
 
 Группирует имена по номеру в Map<Integer, List<String>>.
-
+```
 ## Заключение
 
 Программа демонстрирует:
